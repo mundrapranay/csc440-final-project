@@ -1,0 +1,10 @@
+,Player,Nation,Pos,Squad,Comp,Age,Born,
+MP,Starts,Min,90s,
+Gls,Ast,G-PK,PK,PKatt,
+CrdY,CrdR,
+Gls.1,Ast.1,G+A,G-PK.1,
+G+A-PK,xG,npxG,xA,npxG+xA,xG.1,xA.1,xG+xA,npxG.1,npxG+xA.1,
+Matches,Sh,SoT,SoT%,Sh/90,SoT/90,G/Sh,G/SoT,Dist,FK,npxG/Sh,G-xG,np:G-xG,Cmp,Att,Cmp%,
+TotDist,PrgDist,Cmp.1,Att.1,Cmp%.1,Cmp.2,
+Att.2,Cmp%.2,Cmp.3,Att.3,Cmp%.3,A-xA,KP,1/3,PPA,CrsPA,Prog,Live,Dead,TB,Press,Sw,Crs,CK,In,Out,Str,Ground,Low,High,Left,Right,Head,TI,Other,Off,Out.1,Int,Blocks,
+SCA,SCA90,PassLive,PassDead,Drib,Fld,Def,GCA,GCA90,PassLive.1,PassDead.1,Drib.1,Sh.1,Fld.1,Def.1,Tkl,TklW,Def 3rd,Mid 3rd,Att 3rd,Tkl.1,Tkl%,Past,Succ,%,Def 3rd.1,Mid 3rd.1,Att 3rd.1,ShSv,Pass,Tkl+Int,Clr,Err,Touches,Def Pen,Att Pen,Succ%,#Pl,Megs,Carries,CPA,Mis,Dis,Targ,Rec,Rec%,Prog.1,Mn/MP,Min%,Mn/Start,Compl,Subs,Mn/Sub,unSub,PPM,onG,onGA,+/-,+/-90,On-Off,onxG,onxGA,xG+/-,xG+/-90,On-Off.1,2CrdY,Fls,PKwon,PKcon,OG,Recov,Won,Lost,Won%,League Name,League ID,Season,Team Name,Team Country,Player Lower,First Name Lower,Last Name Lower,First Initial Lower,Team Country Lower,Nationality Code,Nationality Cleaned,Position Grouped,Outfielder Goalkeeper,GA,GA90,SoTA,Saves,Save%,W,D,L,CS,CS%,PKA,PKsv,PKm,Save%.1,PSxG,PSxG/SoT,PSxG+/-,/90,Thr,Launch%,AvgLen,Launch%.1,AvgLen.1,Opp,Stp,Stp%,#OPA,#OPA/90,AvgDist
