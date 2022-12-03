@@ -54,15 +54,22 @@ def build_index(data):
     print(index.ntotal)
     return index 
 
-def player_finder(index, idMap, params):
+def player_finder(index, idMap, data, params):
     params.league = 'bundesliga'
     query_data, query_idMap = load_and_preprocess_data(params)
-    D, I = index.search(query_data[:5], params.k)
+    player_name = 'alphonso davies'
+    idx = query_idMap.index(player_name)
+    print(idx)
+    # D, I = index.search(query_data[:5], params.k)
+    query_kdb = np.zeros((1, 182))
+    query_kdb[0] = query_data[idx]
+    query_kdb = query_kdb.astype('float32')
+    D, I = index.search(query_kdb, params.k)
     print(I)
     first_search = query_idMap[:5]
     for idx, nbs in enumerate(I):
         similar_players = [idMap[n] for n in nbs]
-        print('Query player : {0}\t Similar Players : {1}'.format(first_search[idx], ','.join(similar_players)))
+        print('Query player : {0}\t Similar Players : {1}'.format(player_name, ','.join(similar_players)))
     # print(D)
 
 
@@ -75,4 +82,4 @@ if __name__ == '__main__':
 
     data, idMap = load_and_preprocess_data(params)
     index = build_index(data)
-    player_finder(index, idMap, params)
+    player_finder(index, idMap, data, params)
