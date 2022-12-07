@@ -1,0 +1,25 @@
+,id,squad,player_name,player_position,date_joined,joined_from,contract_expiry,player_market_value_euro
+31297,31298,Juventus FC,Wojciech Szczesny,Goalkeeper,2017-07-19,Arsenal FC,2024-06-30,25000000.0
+31298,31299,Juventus FC,Gianluigi Buffon,Goalkeeper,2019-07-04,Paris Saint-Germain,2021-06-30,1000000.0
+31299,31300,Juventus FC,Carlo Pinsoglio,Goalkeeper,2014-07-01,Vicenza Calcio,2021-06-30,400000.0
+31300,31301,Juventus FC,Matthijs de Ligt,Centre-Back,2019-07-18,Ajax Amsterdam,2024-06-30,75000000.0
+31301,31302,Juventus FC,Merih Demiral,Centre-Back,2019-07-05,US Sassuolo,2024-06-30,28000000.0
+31302,31303,Juventus FC,Leonardo Bonucci,Centre-Back,2018-08-02,AC Milan,2024-06-30,8000000.0
+31303,31304,Juventus FC,Radu Dragusin,Centre-Back,2021-01-01,Juventus U23,2025-06-30,3000000.0
+31304,31305,Juventus FC,Giorgio Chiellini,Centre-Back,2005-07-01,ACF Fiorentina,2021-06-30,1500000.0
+31305,31306,Juventus FC,Alex Sandro,Left-Back,2015-08-20,FC Porto,2023-06-30,20000000.0
+31306,31307,Juventus FC,Gianluca Frabotta,Left-Back,2020-09-01,Juventus U23,2025-06-30,2500000.0
+31307,31308,Juventus FC,Danilo,Right-Back,2019-08-07,Manchester City,2024-06-30,20000000.0
+31308,31309,Juventus FC,Juan Cuadrado,Right-Back,2017-07-01,Chelsea FC,2022-06-30,16000000.0
+31309,31310,Juventus FC,Arthur,Central Midfield,2020-09-01,FC Barcelona,2025-06-30,40000000.0
+31310,31311,Juventus FC,Rodrigo Bentancur,Central Midfield,2017-07-01,Club Atlético Boca Juniors,2024-06-30,35000000.0
+31311,31312,Juventus FC,Adrien Rabiot,Central Midfield,2019-07-01,Paris Saint-Germain,2023-06-30,30000000.0
+31312,31313,Juventus FC,Weston McKennie,Central Midfield,2020-09-01,FC Schalke 04,2025-06-30,25000000.0
+31313,31314,Juventus FC,Aaron Ramsey,Central Midfield,2019-07-01,Arsenal FC,2023-06-30,14000000.0
+31314,31315,Juventus FC,Nicolò Fagioli,Attacking Midfield,2021-01-01,Juventus U23,2023-06-30,1200000.0
+31315,31316,Juventus FC,Federico Chiesa,Right Winger,2020-10-05,ACF Fiorentina,2022-06-30,60000000.0
+31316,31317,Juventus FC,Dejan Kulusevski,Right Winger,2020-01-02,Atalanta BC,2025-06-30,40000000.0
+31317,31318,Juventus FC,Federico Bernardeschi,Right Winger,2017-07-24,ACF Fiorentina,2022-06-30,15000000.0
+31318,31319,Juventus FC,Paulo Dybala,Second Striker,2015-07-01,US Palermo,2022-06-30,50000000.0
+31319,31320,Juventus FC,Cristiano Ronaldo,Centre-Forward,2018-07-10,Real Madrid,2022-06-30,45000000.0
+31320,31321,Juventus FC,Álvaro Morata,Centre-Forward,2020-09-22,Atlético de Madrid,2022-06-30,45000000.0

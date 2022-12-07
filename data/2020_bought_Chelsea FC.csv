@@ -1,0 +1,34 @@
+,id,squad,player_name,player_position,date_joined,joined_from,contract_expiry,player_market_value_euro
+7657,7658,Chelsea FC,Edouard Mendy,Goalkeeper,2020-09-24,Stade Rennais FC,2025-06-30,25000000.0
+7658,7659,Chelsea FC,Kepa,Goalkeeper,2018-08-08,Athletic Bilbao,2025-06-30,13000000.0
+7659,7660,Chelsea FC,Jamal Blackman,Goalkeeper,2014-07-01,Chelsea FC U21,2021-06-30,600000.0
+7660,7661,Chelsea FC,Willy Caballero,Goalkeeper,2017-07-01,Manchester City,2021-06-30,250000.0
+7661,7662,Chelsea FC,Kurt Zouma,Centre-Back,2014-01-31,AS Saint-Étienne,2023-06-30,32000000.0
+7662,7663,Chelsea FC,Andreas Christensen,Centre-Back,2015-07-01,Chelsea FC U21,2022-06-30,30000000.0
+7663,7664,Chelsea FC,Antonio Rüdiger,Centre-Back,2017-07-09,AS Roma,2022-06-30,28000000.0
+7664,7665,Chelsea FC,Ethan Ampadu,Centre-Back,2017-07-01,Exeter City,2023-06-30,15000000.0
+7665,7666,Chelsea FC,Thiago Silva,Centre-Back,2020-08-28,Paris Saint-Germain,2022-06-30,3000000.0
+7666,7667,Chelsea FC,Jake Clarke-Salter,Centre-Back,2018-07-01,Chelsea FC U23,2022-06-30,2000000.0
+7667,7668,Chelsea FC,Ben Chilwell,Left-Back,2020-08-26,Leicester City,2025-06-30,45000000.0
+7668,7669,Chelsea FC,Marcos Alonso,Left-Back,2016-08-31,ACF Fiorentina,2023-06-30,12000000.0
+7669,7670,Chelsea FC,Emerson,Left-Back,2018-01-30,AS Roma,2022-06-30,12000000.0
+7670,7671,Chelsea FC,Reece James,Right-Back,2019-07-01,Chelsea FC U23,2025-06-30,40000000.0
+7671,7672,Chelsea FC,César Azpilicueta,Right-Back,2012-08-24,Olympique Marseille,2022-06-30,13000000.0
+7672,7673,Chelsea FC,N'Golo Kanté,Defensive Midfield,2016-07-16,Leicester City,2023-06-30,55000000.0
+7673,7674,Chelsea FC,Jorginho,Defensive Midfield,2018-07-14,SSC Napoli,2023-06-30,40000000.0
+7674,7675,Chelsea FC,Mateo Kovacic,Central Midfield,2019-07-01,Real Madrid,2024-06-30,45000000.0
+7675,7676,Chelsea FC,Ross Barkley,Central Midfield,2018-01-05,Everton FC,2023-06-30,20000000.0
+7676,7677,Chelsea FC,Ruben Loftus-Cheek,Central Midfield,2015-01-01,Chelsea FC U21,2024-06-30,18000000.0
+7677,7678,Chelsea FC,Conor Gallagher,Central Midfield,2020-08-01,Chelsea FC U23,2025-06-30,15000000.0
+7678,7679,Chelsea FC,Billy Gilmour,Central Midfield,2020-02-11,Chelsea FC U23,2023-06-30,10000000.0
+7679,7680,Chelsea FC,Mason Mount,Attacking Midfield,2019-07-01,Chelsea FC U23,2024-06-30,75000000.0
+7680,7681,Chelsea FC,Kai Havertz,Attacking Midfield,2020-09-04,Bayer 04 Leverkusen,2025-06-30,70000000.0
+7681,7682,Chelsea FC,Hakim Ziyech,Attacking Midfield,2020-07-01,Ajax Amsterdam,2025-06-30,38000000.0
+7682,7683,Chelsea FC,Charly Musonda Jr.,Attacking Midfield,2017-07-01,Chelsea FC U23,2022-06-30,1000000.0
+7683,7684,Chelsea FC,Callum Hudson-Odoi,Left Winger,2019-01-01,Chelsea FC U23,2024-06-30,32000000.0
+7684,7685,Chelsea FC,Christian Pulisic,Right Winger,2019-01-02,Borussia Dortmund,2024-06-30,50000000.0
+7685,7686,Chelsea FC,Izzy Brown,Second Striker,2018-07-01,Chelsea FC U23,2021-06-30,1600000.0
+7686,7687,Chelsea FC,Timo Werner,Centre-Forward,2020-07-01,RB Leipzig,2025-06-30,65000000.0
+7687,7688,Chelsea FC,Tammy Abraham,Centre-Forward,2017-07-01,Chelsea FC U23,2023-06-30,38000000.0
+7688,7689,Chelsea FC,Michy Batshuayi,Centre-Forward,2016-07-03,Olympique Marseille,2022-06-30,10000000.0
+7689,7690,Chelsea FC,Olivier Giroud,Centre-Forward,2018-01-31,Arsenal FC,2022-06-30,4000000.0

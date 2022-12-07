@@ -30,12 +30,15 @@ def load_and_preprocess_data(params, query=False):
     data[data_numeric_cols.columns] = data_numeric_cols_normalized
     data =  data.fillna(0.0)
     data['Player'] = data['Player Lower']
-    data['Pos'] = data['Position Grouped']
+    # data['Pos'] = data['Position Grouped']
+    data['label'] = data['Position Grouped']
+    print(data['label'].nunique())
     # print(data.head())
-    data = data.drop(['Season','Matches','Squad','Nation', 'Comp', 'Age', 'Born', 'League ID', 'League Name', 'Team Name', 'Team Country', 'First Name Lower', 'Last Name Lower','First Initial Lower','Team Country Lower','Nationality Code','Nationality Cleaned', 'Outfielder Goalkeeper', 'Player Lower', 'Position Grouped'], axis=1)
+    data = data.drop(['Player','Pos','Season','Matches','Squad','Nation', 'Comp', 'Age', 'Born', 'League ID', 'League Name', 'Team Name', 'Team Country', 'First Name Lower', 'Last Name Lower','First Initial Lower','Team Country Lower','Nationality Code','Nationality Cleaned', 'Outfielder Goalkeeper', 'Player Lower', 'Position Grouped'], axis=1)
     # print(data.keys())
     # print(data.keys()[28])
     # for row in data.iterrows():
+    data.to_csv('./data/model_data.csv', index=False)
     dataList = data.values.tolist()
     # 1 : player name, 2 : position, [3:] : values for attributes : vector     
     data_matrix = np.zeros((len(dataList), 182))
@@ -104,10 +107,10 @@ def player_finder(index, idMap, data, params):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--league', type=str, default=None, help='name of league to build index over = [premier_league, la_liga, bundesliga, ligue_1, serie_a]')
-    parser.add_argument('--season', type=str, default='2020-2021', help='season for which we are searing = [2017-2018, 2018-2019, 2019-2020, 2020-2021, 2021-2022]')
+    parser.add_argument('--season', type=str, default='2019-2020', help='season for which we are searing = [2017-2018, 2018-2019, 2019-2020, 2020-2021, 2021-2022]')
     parser.add_argument('--query_league', type=str, default='la_liga', help='name of the league to use as query')
-    parser.add_argument('--query_season', type=str, default='2020-2021', help='season to use as query')
-    parser.add_argument('--player_name', type=str, default=None, help='name of the player (from query league) [firstname_lastname] to find similar players from, if not given we go over each player of the query league')
+    parser.add_argument('--query_season', type=str, default='2019-2020', help='season to use as query')
+    parser.add_argument('--player_name', type=str, default='lionel messi', help='name of the player (from query league) [firstname_lastname] to find similar players from, if not given we go over each player of the query league')
     parser.add_argument('--k', type=int, default=10, help='k for the top-k search')
     params = parser.parse_args()
     if params.player_name:

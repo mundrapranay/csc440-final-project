@@ -1,0 +1,27 @@
+,id,squad,player_name,player_position,date_joined,joined_from,contract_expiry,player_market_value_euro
+21808,21809,Bayern Munich,Manuel Neuer,Goalkeeper,2011-07-01,FC Schalke 04,2023-06-30,18000000.0
+21809,21810,Bayern Munich,Alexander Nübel,Goalkeeper,2020-07-01,FC Schalke 04,2025-06-30,6000000.0
+21810,21811,Bayern Munich,Ron-Thorben Hoffmann,Goalkeeper,2018-07-01,FC Bayern Munich U19 ,2022-06-30,600000.0
+21811,21812,Bayern Munich,David Alaba,Centre-Back,2010-07-01,FC Bayern Munich II,2021-06-30,55000000.0
+21812,21813,Bayern Munich,Niklas Süle,Centre-Back,2017-07-01,TSG 1899 Hoffenheim,2022-06-30,35000000.0
+21813,21814,Bayern Munich,Tanguy Nianzou,Centre-Back,2020-07-01,Paris Saint-Germain,2024-06-30,11000000.0
+21814,21815,Bayern Munich,Jérôme Boateng,Centre-Back,2011-07-14,Manchester City,2021-06-30,8500000.0
+21815,21816,Bayern Munich,Alphonso Davies,Left-Back,2019-01-01,Vancouver Whitecaps FC,2025-06-30,70000000.0
+21816,21817,Bayern Munich,Lucas Hernández,Left-Back,2019-07-01,Atlético de Madrid,2024-06-30,45000000.0
+21817,21818,Bayern Munich,Benjamin Pavard,Right-Back,2019-07-01,VfB Stuttgart,2024-06-30,35000000.0
+21818,21819,Bayern Munich,Bouna Sarr,Right-Back,2020-10-05,Olympique Marseille,2024-06-30,4000000.0
+21819,21820,Bayern Munich,Josip Stanisic,Right-Back,,VfB Stuttgart,2021-06-30,400000.0
+21820,21821,Bayern Munich,Joshua Kimmich,Defensive Midfield,2015-07-02,RCD Espanyol Barcelona,2023-06-30,90000000.0
+21821,21822,Bayern Munich,Marc Roca,Defensive Midfield,2020-10-04,Athletic Bilbao,2025-06-30,10000000.0
+21822,21823,Bayern Munich,Javi Martínez,Defensive Midfield,2012-08-29,FC Schalke 04,2021-06-30,5000000.0
+21823,21824,Bayern Munich,Leon Goretzka,Central Midfield,2018-07-01,Olympique Lyon,2022-06-30,70000000.0
+21824,21825,Bayern Munich,Corentin Tolisso,Central Midfield,2017-07-01,SL Benfica,2022-06-30,20000000.0
+21825,21826,Bayern Munich,Tiago Dantas,Central Midfield,2020-10-05,FC Bayern Munich U19 ,2021-06-30,3000000.0
+21826,21827,Bayern Munich,Jamal Musiala,Attacking Midfield,2020-07-01,Juventus FC,2026-06-30,38000000.0
+21827,21828,Bayern Munich,Christopher Scott,Attacking Midfield,,SV Werder Bremen,2022-06-30,1200000.0
+21828,21829,Bayern Munich,Kingsley Coman,Left Winger,2017-07-01,Manchester City,2023-06-30,65000000.0
+21829,21830,Bayern Munich,Serge Gnabry,Right Winger,2017-07-01,FC Bayern Munich II,2023-06-30,70000000.0
+21830,21831,Bayern Munich,Leroy Sané,Right Winger,2020-07-15,Borussia Dortmund,2025-06-30,60000000.0
+21831,21832,Bayern Munich,Thomas Müller,Second Striker,2009-07-01,Paris Saint-Germain,2023-06-30,30000000.0
+21832,21833,Bayern Munich,Robert Lewandowski,Centre-Forward,2014-07-01,FC Schalke 04,2023-06-30,60000000.0
+21833,21834,Bayern Munich,Eric Maxim Choupo-Moting,Centre-Forward,2020-10-05,FC Schalke 04,2023-06-30,3500000.0
