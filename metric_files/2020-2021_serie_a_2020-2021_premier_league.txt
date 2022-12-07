@@ -1,0 +1,8 @@
+Time Taken : 2.398228645324707
+Model Trained on serie_a:2020-2021	 Tested on premier_league:2020-2021
+Accuracy of the model on the test data: 83.97212543554006 %
+Class Wise Test Accuracy
+Class:0	Acc:96.42857142857143
+Class:1	Acc:95.45454545454545
+Class:2	Acc:67.72151898734177
+Class:3	Acc:78.35820895522389

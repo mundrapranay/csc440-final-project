@@ -1,0 +1,8 @@
+Time Taken : 2.1808125972747803
+Model Trained on ligue_1:2019-2020	 Tested on serie_a:2019-2020
+Accuracy of the model on the test data: 85.03086419753086 %
+Class Wise Test Accuracy
+Class:0	Acc:95.83333333333334
+Class:1	Acc:84.05172413793103
+Class:2	Acc:83.24324324324324
+Class:3	Acc:81.48148148148148

@@ -32,12 +32,14 @@ def load_and_preprocess_data(params, query=False):
     data['Player'] = data['Player Lower']
     # data['Pos'] = data['Position Grouped']
     data['label'] = data['Position Grouped']
-    print(data['label'].nunique())
+    mapping = {'Forward' : 3, 'Defender' : 1,  'Midfielder' : 2, 'Goalkeeper' : 0}
+    print(data['label'].unique())
     # print(data.head())
     data = data.drop(['Player','Pos','Season','Matches','Squad','Nation', 'Comp', 'Age', 'Born', 'League ID', 'League Name', 'Team Name', 'Team Country', 'First Name Lower', 'Last Name Lower','First Initial Lower','Team Country Lower','Nationality Code','Nationality Cleaned', 'Outfielder Goalkeeper', 'Player Lower', 'Position Grouped'], axis=1)
     # print(data.keys())
     # print(data.keys()[28])
     # for row in data.iterrows():
+    data.label = [mapping[item] for item in data.label]
     data.to_csv('./data/model_data.csv', index=False)
     dataList = data.values.tolist()
     # 1 : player name, 2 : position, [3:] : values for attributes : vector     
@@ -104,6 +106,27 @@ def player_finder(index, idMap, data, params):
         # print(D)
 
 
+
+def make_model_data(params):
+    data = pd.read_csv(DATA_LOC.format(params.query_league))
+    data_season_mask = data['Season'] == params.query_season
+    data = data[data_season_mask]
+    data_numeric_cols = data.select_dtypes(include='number')
+    data_numeric_cols_normalized = (data_numeric_cols - data_numeric_cols.mean()) / (data_numeric_cols.std())
+    data[data_numeric_cols.columns] = data_numeric_cols_normalized
+    data =  data.fillna(0.0)
+    data['label'] = data['Position Grouped']
+    # print('{0}, {1}'.format(params.query_league, params.query_season))
+    mapping = {'Forward' : 3, 'Defender' : 1,  'Midfielder' : 2, 'Goalkeeper' : 0}
+    data = data.drop(['Player','Pos','Season','Matches','Squad','Nation', 'Comp', 'Age', 'Born', 'League ID', 'League Name', 'Team Name', 'Team Country', 'First Name Lower', 'Last Name Lower','First Initial Lower','Team Country Lower','Nationality Code','Nationality Cleaned', 'Outfielder Goalkeeper', 'Player Lower', 'Position Grouped'], axis=1)
+    try:
+        data = data[data.label != 0.0]
+        data.label = [mapping[item] for item in data.label]
+        data = data.loc[:, ~data.columns.str.contains('^Unnamed')]
+        data.to_csv('./model_data/{0}/{1}.csv'.format(params.query_season, params.query_league), index=False)
+    except KeyError:
+        print('{0}, {1}'.format(params.query_league, params.query_season))
+        pass
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--league', type=str, default=None, help='name of league to build index over = [premier_league, la_liga, bundesliga, ligue_1, serie_a]')
@@ -115,6 +138,11 @@ if __name__ == '__main__':
     params = parser.parse_args()
     if params.player_name:
         params.player_name = ' '.join(params.player_name.split('_'))
-    data, idMap = load_and_preprocess_data(params)
-    index = build_index(data)
-    player_finder(index, idMap, data, params)
+    # data, idMap = load_and_preprocess_data(params)
+    # index = build_index(data)
+    # player_finder(index, idMap, data, params)
+    for s in ['2017-2018', '2018-2019', '2019-2020', '2020-2021', '2021-2022']:
+        params.query_season = s
+        for l in ['premier_league', 'bundesliga', 'la_liga', 'ligue_1', 'serie_a']:
+            params.query_league = l
+            make_model_data(params)

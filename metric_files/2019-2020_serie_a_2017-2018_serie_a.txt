@@ -1,0 +1,8 @@
+Time Taken : 2.414401054382324
+Model Trained on serie_a:2019-2020	 Tested on serie_a:2017-2018
+Accuracy of the model on the test data: 87.01517706576729 %
+Class Wise Test Accuracy
+Class:0	Acc:92.85714285714286
+Class:1	Acc:95.1219512195122
+Class:2	Acc:80.72289156626506
+Class:3	Acc:78.98550724637681

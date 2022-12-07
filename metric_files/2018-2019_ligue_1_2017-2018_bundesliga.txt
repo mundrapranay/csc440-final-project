@@ -1,0 +1,8 @@
+Time Taken : 2.6587464809417725
+Model Trained on ligue_1:2018-2019	 Tested on bundesliga:2017-2018
+Accuracy of the model on the test data: 83.13953488372093 %
+Class Wise Test Accuracy
+Class:0	Acc:100.0
+Class:1	Acc:89.01734104046243
+Class:2	Acc:67.28395061728395
+Class:3	Acc:87.17948717948718

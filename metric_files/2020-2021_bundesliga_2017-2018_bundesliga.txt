@@ -1,0 +1,8 @@
+Time Taken : 2.3071610927581787
+Model Trained on bundesliga:2020-2021	 Tested on bundesliga:2017-2018
+Accuracy of the model on the test data: 83.52713178294573 %
+Class Wise Test Accuracy
+Class:0	Acc:100.0
+Class:1	Acc:90.7514450867052
+Class:2	Acc:66.0493827160494
+Class:3	Acc:88.03418803418803

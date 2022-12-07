@@ -1,0 +1,8 @@
+Time Taken : 2.7218642234802246
+Model Trained on ligue_1:2020-2021	 Tested on premier_league:2021-2022
+Accuracy of the model on the test data: 78.45744680851064 %
+Class Wise Test Accuracy
+Class:0	Acc:100.0
+Class:1	Acc:85.12396694214877
+Class:2	Acc:70.16129032258065
+Class:3	Acc:71.42857142857143
